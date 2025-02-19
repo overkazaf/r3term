@@ -35,7 +35,6 @@ R3Term 通过以下方式将您的终端转变为全面的逆向工程工作台�
 
 
 [![asciicast](https://asciinema.org/a/EGg4uh4OHNikw3owBepj8JuEf.svg)](https://asciinema.org/a/EGg4uh4OHNikw3owBepj8JuEf)
-<script src="https://asciinema.org/a/EGg4uh4OHNikw3owBepj8JuEf.js" async></script>
 
 
 ## 安装

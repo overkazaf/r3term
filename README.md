@@ -89,7 +89,6 @@ If you find this project useful, please consider supporting its development:
 Your support helps maintain and improve this project!
 
 [![asciicast](https://asciinema.org/a/EGg4uh4OHNikw3owBepj8JuEf.svg)](https://asciinema.org/a/EGg4uh4OHNikw3owBepj8JuEf)
-<script src="https://asciinema.org/a/EGg4uh4OHNikw3owBepj8JuEf.js" async></script>
 
 
 ## Installation
