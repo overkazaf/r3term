@@ -1,0 +1,59 @@
+# {title}
+
+## Basic Information
+
+- **Date**: {date}
+- **Author**: {author}
+- **Target**: [Software Name and Version]
+- **Platform**: [OS/Architecture]
+- **Tools**: [List of Tools Used]
+
+## Executive Summary
+
+[Brief overview of the analysis and key findings]
+
+## Technical Analysis
+
+### 1. Initial Assessment
+- File Properties
+- Static Analysis Results
+- Initial Behavioral Analysis
+
+### 2. Dynamic Analysis
+- Runtime Behavior
+- Network Communications
+- System Interactions
+
+### 3. Code Analysis
+- Key Functions
+- Important Algorithms
+- Protection Mechanisms
+
+### 4. Vulnerabilities/Findings
+- Detailed Description
+- Technical Impact
+- Exploitation Details
+
+## Conclusion
+
+[Summary of findings and implications]
+
+## Recommendations
+
+[Security recommendations and mitigation strategies]
+
+## References
+
+- [Reference 1]
+- [Reference 2]
+
+## Appendix
+
+### A. Technical Details
+[Additional technical information]
+
+### B. Tools and Commands
+[Specific tools and commands used]
+
+### C. IOCs
+[Indicators of Compromise if applicable]

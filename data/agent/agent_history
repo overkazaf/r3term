@@ -1,0 +1,663 @@
+
+# 2025-02-18 19:53:07.730772
++knowledge
+
+# 2025-02-18 19:53:10.070533
++knowledge list
+
+# 2025-02-18 19:53:12.648610
++view
+
+# 2025-02-18 19:53:20.179582
++knowledge analyze
+
+# 2025-02-18 19:53:30.015776
++github
+
+# 2025-02-18 19:53:40.416383
++view
+
+# 2025-02-18 19:55:06.915439
++knowledge add
+
+# 2025-02-18 19:55:26.912958
++knowledge add drm l1-writeup
+
+# 2025-02-18 19:55:34.747505
++knowledge add papers l1-writeup
+
+# 2025-02-18 19:56:04.619025
++knowledge list
+
+# 2025-02-18 19:56:18.699023
++knowledge analyze
+
+# 2025-02-18 19:56:24.540036
++knowledge search drm
+
+# 2025-02-18 19:56:27.842832
++knowledge search 
+
+# 2025-02-18 19:56:33.902669
++knowledge search QTEE
+
+# 2025-02-18 19:56:47.383566
++knowledge search 'how to crack l1'
+
+# 2025-02-18 21:01:36.256964
++knowledge search QTEE
+
+# 2025-02-18 21:01:38.645480
++knowledge search QT
+
+# 2025-02-18 21:01:39.895105
++knowledge search Q
+
+# 2025-02-18 21:04:34.755259
++q
+
+# 2025-02-18 21:05:49.460425
++knowledge query llm
+
+# 2025-02-18 21:06:17.572053
++knowledge query qtee
+
+# 2025-02-18 21:07:36.396824
++q
+
+# 2025-02-18 21:07:53.625541
++knowledge search qtee
+
+# 2025-02-18 21:08:55.618153
++q
+
+# 2025-02-18 21:09:07.380485
++knowledge search qtee
+
+# 2025-02-18 21:13:42.287363
++q
+
+# 2025-02-18 21:28:28.193207
++knowledge search l1 drm
+
+# 2025-02-18 21:28:49.050738
++knowledge query summarize what is l1 drm
+
+# 2025-02-18 21:28:59.896209
++knowledge search summarize what is l1 drm
+
+# 2025-02-18 21:29:27.561862
++knowledge search summarize what is drm, and sumarize this article in 3 main viewpoints
+
+# 2025-02-18 21:30:37.690523
++q
+
+# 2025-02-19 09:39:51.200531
++view
+
+# 2025-02-19 09:39:57.174734
++view 20250219
+
+# 2025-02-19 09:40:02.206857
++view 20250218
+
+# 2025-02-19 09:40:08.266891
++help
+
+# 2025-02-19 09:40:32.496280
++q
+
+# 2025-02-19 09:43:24.044765
++help
+
+# 2025-02-19 09:43:38.185216
++knowledge list
+
+# 2025-02-19 09:48:27.969752
++help
+
+# 2025-02-19 09:49:27.025499
++q
+
+# 2025-02-19 09:49:50.261487
++help
+
+# 2025-02-19 09:49:55.614889
++classify
+
+# 2025-02-19 09:50:14.402715
++classify /Users/nongjiawu/Desktop/docs/pdf
+
+# 2025-02-19 09:52:33.576596
++q
+
+# 2025-02-19 09:52:59.953696
++help
+
+# 2025-02-19 09:53:14.358401
++classify ~/Desktop/docs/pdf
+
+# 2025-02-19 09:53:28.720303
++classify /Users/nongjiawu/Desktop/docs/pdf
+
+# 2025-02-19 09:54:26.700295
++q
+
+# 2025-02-19 09:57:43.631035
++help
+
+# 2025-02-19 09:58:34.192226
++knowledge query b
+
+# 2025-02-19 09:58:42.035613
++github
+
+# 2025-02-19 09:58:51.339697
++view
+
+# 2025-02-19 09:59:23.266723
++knowledge
+
+# 2025-02-19 09:59:25.465137
++help
+
+# 2025-02-19 09:59:29.241107
++knowledge delete
+
+# 2025-02-19 09:59:34.743133
++knowledge list
+
+# 2025-02-19 09:59:42.217013
++knowledge delete papers l1-writeup
+
+# 2025-02-19 09:59:47.291382
++knowledge remove papers l1-writeup
+
+# 2025-02-19 10:00:01.358973
++knowledge list
+
+# 2025-02-19 10:00:15.257351
++knowledge add papers l1-writeup
+
+# 2025-02-19 10:01:39.481419
++knowledge list
+
+# 2025-02-19 10:01:43.297001
++knowledge query
+
+# 2025-02-19 10:01:46.471965
++knowledge query l1
+
+# 2025-02-19 10:02:17.341441
++help
+
+# 2025-02-19 10:02:34.635441
++knowledge search drm
+
+# 2025-02-19 10:03:16.114040
++q
+
+# 2025-02-19 10:03:32.196666
++knowledge add /Users/nongjiawu/Desktop/docs/pdf/as-21-Zhao-Wideshears-Investigating-And-Breaking-Widevine-On-QTEE-wp.pdf
+
+# 2025-02-19 10:03:52.359130
++knowledge add papers l1-drm-writeup
+
+# 2025-02-19 10:04:38.563073
++knowledge list
+
+# 2025-02-19 10:04:50.140210
++knowledge delete papers l1-writeup
+
+# 2025-02-19 10:04:54.477622
++knowledge remove papers l1-writeup
+
+# 2025-02-19 10:05:47.570640
++q
+
+# 2025-02-19 10:06:12.369528
++knowledge search what is drm
+
+# 2025-02-19 10:06:37.692621
++view
+
+# 2025-02-19 10:06:46.807329
++help
+
+# 2025-02-19 10:06:54.979152
++classify
+
+# 2025-02-19 10:07:04.450700
++classify ~/Desktop/docs/pdf
+
+# 2025-02-19 10:07:11.460637
++classify /Users/nongjiawu/Desktop/docs/pdf
+
+# 2025-02-19 10:07:53.470035
++knowledge search
+
+# 2025-02-19 10:08:36.959878
++q
+
+# 2025-02-19 10:08:45.787857
++q
+
+# 2025-02-19 10:09:09.008385
++knowledge search
+
+# 2025-02-19 10:09:14.663338
++knowledge search what is drm
+
+# 2025-02-19 10:09:20.454411
++knowledge search 'what is drm'
+
+# 2025-02-19 10:09:30.355953
++knowledge search
+
+# 2025-02-19 10:11:01.928650
++q
+
+# 2025-02-19 10:11:18.426384
++help
+
+# 2025-02-19 10:11:22.465075
++knowledge search
+
+# 2025-02-19 10:12:14.355818
++knowledge analyze
+
+# 2025-02-19 10:12:22.165975
++knowledge query
+
+# 2025-02-19 10:12:27.300648
++knowledge query what is drm
+
+# 2025-02-19 10:15:15.706236
++q
+
+# 2025-02-19 10:15:35.039270
++help
+
+# 2025-02-19 10:15:38.650729
++knowledge search
+
+# 2025-02-19 10:18:46.890163
++q
+
+# 2025-02-19 10:19:06.592877
++knowledge search
+
+# 2025-02-19 10:19:57.369352
++QTEE是什么
+
+# 2025-02-19 10:19:59.899083
++knowledge search
+
+# 2025-02-19 10:21:39.766570
++knowledge remove papers l1-writeup
+
+# 2025-02-19 10:21:45.495927
++knowledge remove papers l1-drm-writeup
+
+# 2025-02-19 10:23:42.986882
++exit
+
+# 2025-02-19 10:24:01.085386
++help
+
+# 2025-02-19 10:24:34.627823
++knowledge add papers rev-0219
+
+# 2025-02-19 10:24:57.334587
++knowledge list
+
+# 2025-02-19 10:25:03.915582
++knowledge search drm
+
+# 2025-02-19 10:27:50.913807
++q
+
+# 2025-02-19 10:28:13.761505
++knowledge clear
+
+# 2025-02-19 10:28:15.751412
++knowledge
+
+# 2025-02-19 10:28:39.997035
++knowledge 
+
+# 2025-02-19 10:28:41.035624
++help
+
+# 2025-02-19 10:29:05.334360
++q
+
+# 2025-02-19 10:29:20.730222
++knowledge clear
+
+# 2025-02-19 10:29:22.979319
++knowledge
+
+# 2025-02-19 10:29:24.302602
++help
+
+# 2025-02-19 10:29:31.593069
++knowledge list
+
+# 2025-02-19 10:29:56.229491
++knowledge status
+
+# 2025-02-19 10:30:02.172296
++knowledge clear
+
+# 2025-02-19 10:33:02.033106
++q
+
+# 2025-02-19 10:33:23.233993
++knowledge status
+
+# 2025-02-19 10:33:30.244535
++knowledge clear
+
+# 2025-02-19 10:33:59.879683
++q
+
+# 2025-02-19 10:34:15.290831
++knowledge clear
+
+# 2025-02-19 10:35:24.984888
++q
+
+# 2025-02-19 10:35:44.123657
++knowledge clear
+
+# 2025-02-19 10:35:51.569956
++knowledge status
+
+# 2025-02-19 10:35:55.112745
++knowledge add
+
+# 2025-02-19 10:36:04.420441
++knowledge add papers l1-drm-writeup
+
+# 2025-02-19 10:36:12.548057
++knowledge add
+
+# 2025-02-19 10:37:19.269194
++q
+
+# 2025-02-19 10:37:38.663108
++knowledge add
+
+# 2025-02-19 10:37:46.228245
++knowledge add papers l1-drm-writeup
+
+# 2025-02-19 10:38:32.999586
++q
+
+# 2025-02-19 10:38:51.066150
++knowledge add
+
+# 2025-02-19 10:38:57.080380
++knowledge add paper l1-drm-writeup
+
+# 2025-02-19 10:39:03.183650
++knowledge add papers l1-drm-writeup
+
+# 2025-02-19 10:40:51.103730
++q
+
+# 2025-02-19 10:41:05.540742
++knowledge add
+
+# 2025-02-19 10:41:11.543257
++knowledge add papers l1-drm-writeup
+
+# 2025-02-19 10:42:59.800684
++q
+
+# 2025-02-19 10:43:20.371455
++knowledge add papers l1-drm-writeup
+
+# 2025-02-19 10:45:38.501986
++
+
+# 2025-02-19 10:45:39.399255
++b
+
+# 2025-02-19 10:46:03.904826
++knowledge add
+
+# 2025-02-19 10:46:08.362391
++knowledge add papers l1-drm
+
+# 2025-02-19 10:46:35.992848
++q
+
+# 2025-02-19 10:46:52.219394
++knowledge add
+
+# 2025-02-19 10:46:59.344885
++knowledge add papers l1-drm-writeup
+
+# 2025-02-19 10:47:52.059532
++q
+
+# 2025-02-19 10:48:15.723298
++knowledge add papers l1-drm-writeup
+
+# 2025-02-19 10:48:19.940159
++Please provide content for the knowledge entry.
+
+# 2025-02-19 10:48:19.994006
++Content: /Users/nongjiawu/Desktop/docs/pdf/as-21-Zhao-Wideshears-Investigating-And-Breaking-Widevine-On-QTEE-wp.pdf
+
+# 2025-02-19 10:48:20.011629
++Adding new knowledge entry...
+
+# 2025-02-19 10:48:20.038964
++Error adding knowledge: pypdf package not found, please install it with `pip install pypdf`
+
+# 2025-02-19 10:48:28.633527
++knowledge search
+
+# 2025-02-19 10:49:37.042278
++q
+
+# 2025-02-19 10:49:53.582942
++knowledge sear
+
+# 2025-02-19 10:49:55.678011
++knowledge search
+
+# 2025-02-19 10:50:25.720785
++knowledge clear
+
+# 2025-02-19 10:50:34.735940
++knowledge status
+
+# 2025-02-19 10:50:45.134979
++knowledge add papers l1-drm-writeup
+
+# 2025-02-19 10:51:06.438902
++knowledge search
+
+# 2025-02-19 10:53:06.660105
++q
+
+# 2025-02-19 10:54:06.832423
++knowledge search
+
+# 2025-02-19 10:56:01.492442
++ls
+
+# 2025-02-19 10:56:02.776265
++help
+
+# 2025-02-19 10:56:10.931053
++knowledge analyze
+
+# 2025-02-19 10:56:16.326794
++knowledge stattus
+
+# 2025-02-19 10:56:17.638044
++knowledge status
+
+# 2025-02-19 10:56:32.552194
++sh
+
+# 2025-02-19 10:56:33.915842
++q
+
+# 2025-02-19 10:56:56.093546
++knowledge search
+
+# 2025-02-19 10:57:44.459467
++knowledge clear
+
+# 2025-02-19 10:57:54.957550
++knowledge add papers l1-drm-writeup
+
+# 2025-02-19 10:58:23.132419
++knowledge search
+
+# 2025-02-19 11:00:16.926941
++knowledge add papers explore-drm
+
+# 2025-02-19 11:00:42.387490
++knowledge search
+
+# 2025-02-19 11:02:19.461923
++q
+
+# 2025-02-19 11:02:35.171675
++knowledge search
+
+# 2025-02-19 11:04:30.274941
++介绍一下QTEE
+
+# 2025-02-19 11:04:36.779123
++knowledge search 介绍QTEE是什么
+
+# 2025-02-19 11:05:46.502882
++knowledge lsit
+
+# 2025-02-19 11:05:48.460792
++knowledge list
+
+# 2025-02-19 11:05:52.077349
++github
+
+# 2025-02-19 11:06:01.034571
++view
+
+# 2025-02-19 11:06:41.844360
++help
+
+# 2025-02-19 11:07:42.456436
++q
+
+# 2025-02-19 11:19:12.907230
++knowledge add
+
+# 2025-02-19 11:19:15.724067
++knowledge add a a
+
+# 2025-02-19 11:19:31.659198
++knowledge add papers tls-fingerprint
+
+# 2025-02-19 11:21:39.307499
++knowledge list
+
+# 2025-02-19 11:21:44.718990
++knowledge search
+
+# 2025-02-19 11:23:32.228337
++q
+
+# 2025-02-19 11:23:53.952223
++knowledge search
+
+# 2025-02-19 11:25:32.344362
++knowledge add docs tls-fingerprint
+
+# 2025-02-19 11:25:58.004552
++knowledge add techniques tls-fingerprint
+
+# 2025-02-19 11:26:03.321701
++knowledge search
+
+# 2025-02-19 11:26:50.292456
++knowledge
+
+# 2025-02-19 11:26:53.913050
++knowledge search
+
+# 2025-02-19 11:30:26.708028
++knowledge list
+
+# 2025-02-19 11:30:28.857190
++knowledge status
+
+# 2025-02-19 11:31:35.803332
++q
+
+# 2025-02-19 11:36:29.029114
++knowledge list
+
+# 2025-02-19 11:36:35.843226
++q
+
+# 2025-02-19 11:36:44.926312
++view
+
+# 2025-02-19 11:37:49.252530
++q
+
+# 2025-02-19 11:40:51.496997
++q
+
+# 2025-02-19 12:07:25.572981
++knowledge list
+
+# 2025-02-19 12:07:29.618667
++knowledge status
+
+# 2025-02-19 13:37:31.247298
++q
+
+# 2025-02-20 00:19:22.667325
++help
+
+# 2025-02-20 00:19:25.345070
++github
+
+# 2025-02-20 00:19:38.720749
++view
+
+# 2025-02-20 00:19:52.123642
++help
+
+# 2025-02-20 00:19:55.546009
++knowledge list
+
+# 2025-02-20 00:20:07.206059
++knowledge analyze
+
+# 2025-02-20 00:20:13.394175
++knowledge query finger
+
+# 2025-02-20 00:20:31.560107
++help
+
+# 2025-02-20 00:20:42.156264
++knowledge search
+
+# 2025-02-20 00:21:15.763990
++pwd
+
+# 2025-02-20 00:21:18.049861
++help
+
+# 2025-02-20 00:21:25.469665
++q

@@ -1,0 +1,21 @@
+github:
+  min_stars: 50
+  topics:
+  - reverse-engineering
+  - binary-analysis
+  - malware-analysis
+  - ida-pro
+  - ghidra
+  update_interval: 24
+knowledge:
+  categories:
+  - techniques
+  - tools
+  - vulnerabilities
+  - papers
+  - experiences
+  - tutorials
+writeup:
+  default_template: standard
+  pdf_engine: pandoc
+  template_version: '1.0'

@@ -1,0 +1,31 @@
+./r3term
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 忽略所有 .json 文件
+*.json
+
+# 忽略所有 .db 文件
+*.db
+
+# 忽略所有 .log 文件
+*.log
