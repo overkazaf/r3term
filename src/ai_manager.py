@@ -73,8 +73,9 @@ class AIManager(BaseManager):
             return self._configure()
         elif cmd == "agent":
             return self._start_agent()
-        elif cmd == "logs":
-            return self._show_logs(int(args[0]) if args and args[0].isdigit() else 100)
+        elif "logs" in cmd:
+            count = int(cmd.split(" ")[1]) if len(cmd.split(" ")) > 1 else 100
+            return self._show_logs(count)
         else:
             self.console.print("[red]Unknown command[/red]")
             return False

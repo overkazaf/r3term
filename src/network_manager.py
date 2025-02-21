@@ -55,14 +55,16 @@ class NetworkManager(BaseManager):
                 
             if command == "scan":
                 if len(args) > 0:
-                    self.scan_network(args[0])
+                    self._nmap_scan(args[0])
                 else:
                     console.print("[red]Please provide a target[/red]")
             elif command == "capture":
-                self.capture_traffic()
+                self._start_capture(*args)
+            elif command == "stop":
+                self._stop_capture()
             elif command == "analyze":
                 if len(args) > 0:
-                    self.analyze_capture(args[0])
+                    self._analyze_capture(args[0])
                 else:
                     console.print("[red]Please provide a capture file[/red]")
             elif command == "proxy":
@@ -314,14 +316,15 @@ class NetworkManager(BaseManager):
             self.console.print("[yellow]Proxy already running. Stop it first.[/yellow]")
             return
         
-        cmd = f"mitmproxy -p {port} {options}"
+        cmd = f"mitmweb -p {port} {options}"
         try:
             self.proxy_process = subprocess.Popen(
                 cmd.split(),
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE
             )
-            self.console.print(f"[green]Started mitmproxy on port {port}[/green]")
+            self.console.print(f"[green]Started mitmweb on port {port}[/green]")
+            self.console.print(f"[green]You can open the proxy in browser by visiting http://localhost:8081[/green]")
         except Exception as e:
             self.console.print(f"[red]Error starting proxy: {str(e)}[/red]")
     

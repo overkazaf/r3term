@@ -25,6 +25,7 @@ from crypto_manager import CryptoManager
 from db_manager import DBManager
 from music_manager import MusicManager
 from remarks_manager import RemarksManager
+from kanxue_manager import KanxueManager
 import sys
 import time
 
@@ -218,16 +219,17 @@ def workspace_menu():
 
 def research_menu():
     """Research & Analysis Tools Menu"""
-    research_commands = ["ai", "search", "snippets", "remarks", "back", "b"]
+    research_commands = ["ai", "search", "kanxue", "snippets", "remarks", "back", "b"]
     
     try:
         while True:
             console.print("\n[bold yellow]Research Menu[/bold yellow]")
             console.print("1. ai       - AI Q&A")
             console.print("2. search   - Search Engines")
-            console.print("3. snippets - Code Snippets Management")
-            console.print("4. remarks  - Bookmarks and Remarks Management")
-            console.print("5. b/back   - Return to main menu")
+            console.print("3. kanxue   - Kanxue forum browsing")
+            console.print("4. snippets - Code Snippets Management")
+            console.print("5. remarks  - Bookmarks and Remarks Management")
+            console.print("6. b/back   - Return to main menu")
             
             command = get_command_input("research#", research_commands)
             
@@ -242,6 +244,8 @@ def research_menu():
                 ai_cmd()
             elif command == "search":
                 search_cmd()
+            elif command == "kanxue":
+                kanxue_cmd()
             elif command == "snippets":
                 snippets_cmd()
             elif command == "remarks":
@@ -257,13 +261,14 @@ def research_menu():
 
 def investment_menu():
     """Investment & Trading Tools Menu"""
-    investment_commands = ["crypto", "back", "b"]
+    investment_commands = ["crypto", "tigergpt", "back", "b"]
     
     try:
         while True:
             console.print("\n[bold green]Investment Menu[/bold green]")
             console.print("1. crypto   - Cryptocurrency Monitor")
-            console.print("2. b/back   - Return to main menu")
+            console.print("2. tigergpt - TigerTrade GPT Trading Assistant")
+            console.print("3. b/back   - Return to main menu")
             
             command = get_command_input("investment#", investment_commands)
             
@@ -275,6 +280,8 @@ def investment_menu():
                 execute_shell_command(shell_cmd)
             elif command == "crypto":
                 crypto_cmd()
+            elif command == "tigergpt":
+                tigergpt_cmd()
             else:
                 console.print("[red]Unknown command[/red]")
     
@@ -427,13 +434,15 @@ def main(ctx: typer.Context):
             commands_table.add_row("[bold yellow]2. research[/bold yellow]", "[bold yellow]Research & Analysis Tools[/bold yellow]")
             commands_table.add_row("   ai", "DeepSeek AI Q&A")
             commands_table.add_row("   search", "Awesome Search Engines")
+            commands_table.add_row("   kanxue", "Kanxue forum browsing")
             commands_table.add_row("   snippets", "Code Snippets Management")
             commands_table.add_row("   remarks", "Bookmarks and Remarks Management")
             
             # Investment Category
             commands_table.add_row("[bold green]3. investment[/bold green]", "[bold green]Investment & Trading Tools[/bold green]")
             commands_table.add_row("   crypto", "Cryptocurrency Monitor")
-            
+            commands_table.add_row("   tigergpt", "TigerTrade GPT Trading Assistant")
+
             # Entertainment Category
             commands_table.add_row("[bold magenta]4. entertainment[/bold magenta]", "[bold magenta]Games & Entertainment[/bold magenta]")
             commands_table.add_row("   game", "Classic Games Collection")
@@ -911,6 +920,42 @@ def search_cmd():
     
     return True
 
+@research_app.command(name="kanxue")
+def kanxue_cmd(index: int = 0):
+    """Kanxue forum browsing tools"""
+    kanxue_manager = KanxueManager()
+    kanxue_commands = ["list", "open", "back", "b"]
+    
+    try:
+        while True:
+            console.print("\n[yellow]Kanxue Forum Menu[/yellow]")
+            console.print("1. list     - Show all article categories")
+            console.print("2. open     - Open selected article in browser")
+            console.print("3. back     - Return to main menu")
+            
+            cmd = get_command_input("kanxue#", kanxue_commands)
+            
+            if cmd in ["back", "b"]:
+                break
+
+            try:
+                if kanxue_manager.handle_shell_command(cmd):
+                    continue
+
+                if "list" in cmd or "open" in cmd:
+                    kanxue_manager.handle_command(cmd)
+                else:
+                    console.print("[red]Unknown command[/red]")
+                    
+            except Exception as e:
+                console.print(f"[red]Error: {str(e)}[/red]")
+                
+    except KeyboardInterrupt:
+        console.print("\n[yellow]Returning to main menu...[/yellow]")
+    
+    return True
+
+
 @research_app.command(name="snippets")
 def snippets_cmd():
     """Code snippets management"""
@@ -1126,6 +1171,19 @@ def crypto_cmd():
     
     except KeyboardInterrupt:
         console.print("\n[yellow]Returning to main menu...[/yellow]")
+
+@investment_app.command(name="tigergpt")
+def tigergpt_cmd():
+    """TigerTrade GPT Trading Assistant"""
+    # Create a new tmux window and execute tiger command
+    # os.system("tmux new-window -n 'TigerGPT' 'tiger'")
+    tmux_commands = [
+        "tmux new-session -d -s 'TigerGPT'",
+        "tmux send-keys -t 'TigerGPT'",
+        "tmux attach-session -t 'TigerGPT'"
+    ]
+    for cmd in tmux_commands:
+        subprocess.run(cmd, shell=True)
 
 @entertainment_app.command(name="game")
 def game_cmd():
