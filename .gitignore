@@ -33,3 +33,12 @@ MANIFEST
 
 # 忽略所有 venv 文件
 venv/
+
+
+data/ai_history/
+data/search_history/
+data/kanxue_history/
+data/network_history/
+data/crypto_history/
+data/agent_history/
+data/logs/
